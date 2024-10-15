@@ -1,0 +1,31 @@
+:root {
+	--theme-color: #800c6d;
+	--theme-bg: #800c6d;
+	--purple-color:#800c6d;
+	--header-color:#fbfbfb;
+	--default-color:#1c1c1c;
+	--heading-font:'Jost', sans-serif;
+	--text-font:'DM Sans', sans-serif;
+	--dropdown-menu-bg-color:#fff;
+}
+
+.header_sm{
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .mobile-menu-dash {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+#main_header{
+  display: none;
+}
+
+
+
+
+}
